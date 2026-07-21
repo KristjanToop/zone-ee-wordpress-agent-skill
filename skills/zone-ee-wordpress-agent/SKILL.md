@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires an authorized WordPress or Zone.ee access method. A WordPress application password is suitable for REST content work; hosting access is needed only for infrastructure tasks.
 metadata:
   repository: https://github.com/KristjanToop/zone-ee-wordpress-agent-skill
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # Zone.ee x WordPress Agent Skill
@@ -63,6 +63,17 @@ Do not expose credentials in terminal output, templates, code, commits, screensh
 6. Before production, confirm the exact scope with the user, take or confirm a recoverable backup, publish, and re-check the public URL.
 
 For direct production work, announce the exact target and the change immediately before writing. Never mass-delete posts, media, users, databases, or files without specific authorization and a validated target.
+
+### Releasing staging to production
+
+Do not assume staging and production share WordPress users, application passwords, page IDs, plugins, or REST permissions.
+
+1. Confirm the owner approves the release and name the exact staging URL and production URL.
+2. Confirm a current production backup and the rollback method.
+3. Check whether production REST access can enumerate and read the intended record. If it can, update only the agreed content and verify the public production page.
+4. If production REST access is absent, cannot enumerate the intended content, or the change relies on a whole-site staging copy, use the Zone.ee control panel's staging-to-production publish or copy workflow instead of guessing endpoints or writing directly to the database.
+5. State whether the Zone.ee operation copies files, database, or both. Warn the owner if it can overwrite unrelated production changes.
+6. After release, verify the public URL, language links, forms, and indexing settings. Keep staging non-indexable unless explicitly requested otherwise.
 
 ## WordPress specifics
 
