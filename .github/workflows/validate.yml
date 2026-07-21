@@ -1,0 +1,14 @@
+name: Validate skill
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Agent Skills frontmatter
+        run: |
+          ruby -e 'require "yaml"; data = YAML.load_file("skills/zone-ee-wordpress-agent/SKILL.md"); abort "missing name" unless data["name"] == "zone-ee-wordpress-agent"; abort "missing description" if data["description"].to_s.empty?; puts "Skill frontmatter is valid"'
