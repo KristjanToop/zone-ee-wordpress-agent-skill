@@ -1,14 +1,14 @@
 # Zone.ee x WordPress Agent Skill
 
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-open%20standard-5B21B6)](https://agentskills.io)
-[![skills.sh](https://skills.sh/b/KristjanToop/zone-ee-wordpress-agent-skill)](https://skills.sh/KristjanToop/zone-ee-wordpress-agent-skill)
+[![skills.sh](https://skills.sh/b/KristjanToop/zone-ee-wordpress-agent-skill)](https://skills.sh/KristjanToop/zone-ee-wordpress-agent-skill/zone-ee-wordpress-agent)
 [![License: MIT](https://img.shields.io/badge/License-MIT-10B981)](LICENSE)
 
-[![Add to Claude Code](https://img.shields.io/badge/Add%20to-Claude%20Code-D97757)](https://skills.sh/KristjanToop/zone-ee-wordpress-agent-skill)
-[![Add to Codex](https://img.shields.io/badge/Add%20to-Codex-10A37F)](https://skills.sh/KristjanToop/zone-ee-wordpress-agent-skill)
-[![Add to Cursor](https://img.shields.io/badge/Add%20to-Cursor-111827)](https://skills.sh/KristjanToop/zone-ee-wordpress-agent-skill)
-[![Add to GitHub Copilot](https://img.shields.io/badge/Add%20to-GitHub%20Copilot-0969DA)](https://skills.sh/KristjanToop/zone-ee-wordpress-agent-skill)
-[![Add to Gemini CLI](https://img.shields.io/badge/Add%20to-Gemini%20CLI-4285F4)](https://skills.sh/KristjanToop/zone-ee-wordpress-agent-skill)
+[![Add to Claude Code](https://img.shields.io/badge/Add%20to-Claude%20Code-D97757)](https://skills.sh/KristjanToop/zone-ee-wordpress-agent-skill/zone-ee-wordpress-agent)
+[![Add to Codex](https://img.shields.io/badge/Add%20to-Codex-10A37F)](https://skills.sh/KristjanToop/zone-ee-wordpress-agent-skill/zone-ee-wordpress-agent)
+[![Add to Cursor](https://img.shields.io/badge/Add%20to-Cursor-111827)](https://skills.sh/KristjanToop/zone-ee-wordpress-agent-skill/zone-ee-wordpress-agent)
+[![Add to GitHub Copilot](https://img.shields.io/badge/Add%20to-GitHub%20Copilot-0969DA)](https://skills.sh/KristjanToop/zone-ee-wordpress-agent-skill/zone-ee-wordpress-agent)
+[![Add to Gemini CLI](https://img.shields.io/badge/Add%20to-Gemini%20CLI-4285F4)](https://skills.sh/KristjanToop/zone-ee-wordpress-agent-skill/zone-ee-wordpress-agent)
 
 A portable, staging-first workflow for safely managing WordPress sites hosted on Zone.ee.
 
